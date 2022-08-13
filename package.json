@@ -1,7 +1,7 @@
 {
-  "name": "capacitor-zip-plugin",
-  "version": "1.0.6",
-  "description": "Zip and Unzip files on android. Tested on cap v3. Based on Zip4j library.",
+  "name": "@elvis-ibrahimi/capacitor-zip-android",
+  "version": "1.1.0",
+  "description": "Unzip files on android",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -9,20 +9,18 @@
   "files": [
     "android/src/main/",
     "android/build.gradle",
-    "dist/",
-    "ios/Plugin/",
-    "CapacitorZip.podspec"
+    "dist/"
   ],
   "author": "Bechara Rammouz",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m3allimm4a4/capacitor-zip.git"
+    "url": "git+https://github.com/elvis-ibrahimi/capacitor-zip-android.git"
   },
   "bugs": {
-    "url": "https://github.com/m3allimm4a4/capacitor-zip/issues"
+    "url": "https://github.com/elvis-ibrahimi/capacitor-zip-android/issues"
   },
-  "homepage": "https://github.com/m3allimm4a4/capacitor-zip#readme",
+  "homepage": "https://github.com/elvis-ibrahimi/capacitor-zip-android#readme",
   "keywords": [
     "capacitor",
     "plugin",
@@ -72,9 +70,6 @@
     "extends": "@ionic/eslint-config/recommended"
   },
   "capacitor": {
-    "ios": {
-      "src": "ios"
-    },
     "android": {
       "src": "android"
     }

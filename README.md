@@ -1,13 +1,11 @@
-# capacitor-zip [(npm)](https://www.npmjs.com/package/capacitor-zip-plugin)
+# capacitor-zip-android
 
-
-
-Work in progress. Zip and Unzip files on android. Based on Zip4j library. Zip functionnality still not implemented only unzip works for now. Tested on capacitor v3, not tested on older capacitor versions.
+Unzip files on android.
 
 ## Install
 
 ```bash
-npm install capacitor-zip
+npm install @elvis-ibrahimi/capacitor-zip-android
 npx cap sync
 ```
 
